@@ -13,3 +13,111 @@ Our problem building philosophy had a couple goals in mind:
 - To improve technical literacy and adoption of good practices of the developer community as a whole, be it by highlighting some useful but lesser known features (e.g. ABI interface detection) or by providing scenarios that heavily implied usage of new features (e.g. _boxes_, a scheme for potentially unlimited storage on chain).
 
 Feedback from participants in the technical track was overall very positive, even with some prominent builders of the Algorand community reportedly finding out about interesting features to use in their actual projects thanks to the design of our problem set.
+
+## Winners
+
+### Global Competition
+#### For the open innovation challenge:
+🥇 First Place: PredictChain\
+🥈 Second Place: HackSabbath\
+🥉 Third Place: NFT Call Options
+
+_Most Impactful Solution Mention:_ Bitsave Protocol\
+_Most Creative Mention:_ Inhumanity Studio\
+_Most Innovative Use of Technology Mention:_ GreenFund
+
+#### For the technical challenge:
+Beginner:\
+🥇 First Place: Facundo Lerena\
+🥈 Second Place: Michele Bonini\
+🥉 Third Place: Samyuth Sagi
+
+Medium:\
+🥇 First Place: Esteban Diez Laiz\
+🥈 Second Place: Olayinka Ganiyu\
+🥉 Third Place: Artem Uskov
+
+Advanced:\
+🥇 First Place: Roman Njoroge\
+🥈 Second Place: Ludovit Scholtz\
+🥉 Third Place: vacant
+
+### Buenos Aires / Universidad de Buenos Aires
+#### For the open innovation challenge:
+🥇 First Place: Hack Sabbath\
+🥈 Second Place: Green Hydrogen\
+🥉 Third Place: CryptoManijas
+
+_Most Creative Mention:_ powerpeople\
+_Most Impactful Solution Mention:_ CryptoManijas\
+_Most Innovative Use of Technology Mention:_ vacant
+
+#### For the technical challenge:
+Beginner:\
+🥇 First Place: Facundo Lerena\
+🥈 Second Place: Francisco Romano\
+🥉 Third Place: vacant
+
+Medium:\
+🥇 First Place: Daniel Salmun\
+🥈 Second Place: vacant\
+🥉 Third Place: vacant
+
+Advanced:\
+🥇 First Place: vacant\
+🥈 Second Place: vacant\
+🥉 Third Place: vacant
+
+
+### Nairobi / University of Nairobi
+#### For the open innovation challenge:
+🥇 First Place: David and Phidel\
+🥈 Second Place: UON_ALGO\
+🥉 Third Place: Chama
+
+_Most Impactful Solution Mention:_ David and Phidel\
+_Most Innovative Use of Technology Mention:_ UON_ALGO\
+_Most Creative Mention:_ Chama
+
+#### For the technical challenge:
+Beginner:\
+🥇 First Place: vacant\
+🥈 Second Place: vacant\
+🥉 Third Place: vacant
+
+Medium:\
+🥇 First Place: vacant\
+🥈 Second Place: vacant\
+🥉 Third Place: vacant
+
+Advanced:\
+🥇 First Place: vacant\
+🥈 Second Place: vacant\
+🥉 Third Place: vacant
+
+### Troy / Rensselaer Polytechnic Institute
+#### For the open innovation challenge:
+🥇 First Place: NFT Call Options\
+🥈 Second Place: Crowdsourcing on Algorand\
+🥉 Third Place: Predict Chain
+
+_Most Creative Mention:_ Battlebots\
+_Most Innovative Use of Technology Mention:_ PredictChain\
+_Most Impactful Solution Mention:_ EMSights
+
+
+#### For the technical challenge:
+Beginner:\
+🥇 First Place: Tripp Lyons\
+🥈 Second Place: vacant\
+🥉 Third Place: vacant
+
+Medium:\
+🥇 First Place: vacant\
+🥈 Second Place: vacant\
+🥉 Third Place: vacant
+
+Advanced:\
+🥇 First Place: vacant\
+🥈 Second Place: vacant\
+🥉 Third Place: vacant
