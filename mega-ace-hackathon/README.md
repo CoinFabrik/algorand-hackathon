@@ -39,7 +39,7 @@ Medium:\
 
 Advanced:\
 🥇 First Place: Roman Njoroge\
-🥈 Second Place: Ludovit Scholtz\
+🥈 Second Place: Ludovit Scholtz
 
 ### Buenos Aires / Universidad de Buenos Aires
 #### For the open innovation challenge:
@@ -48,15 +48,15 @@ Advanced:\
 🥉 Third Place: CryptoManijas
 
 _Most Creative Mention:_ powerpeople\
-_Most Impactful Solution Mention:_ CryptoManijas\
+_Most Impactful Solution Mention:_ CryptoManijas
 
 #### For the technical challenge:
 Beginner:\
 🥇 First Place: Facundo Lerena\
-🥈 Second Place: Francisco Romano\
+🥈 Second Place: Francisco Romano
 
 Medium:\
-🥇 First Place: Daniel Salmun\
+🥇 First Place: Daniel Salmun
 
 
 ### Nairobi / University of Nairobi
@@ -82,4 +82,4 @@ _Most Impactful Solution Mention:_ EMSights
 
 #### For the technical challenge:
 Beginner:\
-🥇 First Place: Tripp Lyons\
+🥇 First Place: Tripp Lyons
