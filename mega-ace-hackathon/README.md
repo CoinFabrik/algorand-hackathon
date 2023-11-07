@@ -2,7 +2,7 @@
 
 The MEGA-ACE Hackathon was a competition ran by CoinFabrik.\
 It consisted of two independant tracks: a *technical track* and an *open innovation track*.\
-In this repository we showcase the technical track challenges. These consist of a set of 6 problems, divided by difficulty level, with challenges ranging from minting an NFT according to a given standard, to implementing PyTeal => TEAL compiler improvements, or building a smart contract that can't loose at a game of Tic Tac Toe.\
+In this repository we showcase the technical track challenges. These consist of a set of 6 problems, divided by difficulty level, with challenges ranging from minting an NFT according to a given standard, to implementing PyTeal => TEAL compiler improvements, or building a smart contract that can't loose at a game of Tic Tac Toe.
 
 More information available at the official competition [site](https://mega-ace.org/hackathon/)
 
