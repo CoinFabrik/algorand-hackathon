@@ -40,7 +40,6 @@ Medium:\
 Advanced:\
 🥇 First Place: Roman Njoroge\
 🥈 Second Place: Ludovit Scholtz\
-🥉 Third Place: vacant
 
 ### Buenos Aires / Universidad de Buenos Aires
 #### For the open innovation challenge:
@@ -50,23 +49,14 @@ Advanced:\
 
 _Most Creative Mention:_ powerpeople\
 _Most Impactful Solution Mention:_ CryptoManijas\
-_Most Innovative Use of Technology Mention:_ vacant
 
 #### For the technical challenge:
 Beginner:\
 🥇 First Place: Facundo Lerena\
 🥈 Second Place: Francisco Romano\
-🥉 Third Place: vacant
 
 Medium:\
 🥇 First Place: Daniel Salmun\
-🥈 Second Place: vacant\
-🥉 Third Place: vacant
-
-Advanced:\
-🥇 First Place: vacant\
-🥈 Second Place: vacant\
-🥉 Third Place: vacant
 
 
 ### Nairobi / University of Nairobi
@@ -78,22 +68,6 @@ Advanced:\
 _Most Impactful Solution Mention:_ David and Phidel\
 _Most Innovative Use of Technology Mention:_ UON_ALGO\
 _Most Creative Mention:_ Chama
-
-#### For the technical challenge:
-Beginner:\
-🥇 First Place: vacant\
-🥈 Second Place: vacant\
-🥉 Third Place: vacant
-
-Medium:\
-🥇 First Place: vacant\
-🥈 Second Place: vacant\
-🥉 Third Place: vacant
-
-Advanced:\
-🥇 First Place: vacant\
-🥈 Second Place: vacant\
-🥉 Third Place: vacant
 
 ### Troy / Rensselaer Polytechnic Institute
 #### For the open innovation challenge:
@@ -109,15 +83,3 @@ _Most Impactful Solution Mention:_ EMSights
 #### For the technical challenge:
 Beginner:\
 🥇 First Place: Tripp Lyons\
-🥈 Second Place: vacant\
-🥉 Third Place: vacant
-
-Medium:\
-🥇 First Place: vacant\
-🥈 Second Place: vacant\
-🥉 Third Place: vacant
-
-Advanced:\
-🥇 First Place: vacant\
-🥈 Second Place: vacant\
-🥉 Third Place: vacant
