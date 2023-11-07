@@ -12,32 +12,32 @@ Here we specify the correct layout for structuring relevant data in the program.
 There's two separate entities: players and monsters.
 They both have locations in the map, as well as the possibility to hold an asset "in their hands" (in case of the player, modelled by their local state variable "UNSECURED_ASSET"). Players also have an unsigned integer representing their score.
 
-An entity of type MONSTER is represented by a 24 byte structure with the following data, in the order presented:
-uint64 POS_X, x coordinate on the map
-uint64 POS_Y, y coordinate on the map
+An entity of type MONSTER is represented by a 24 byte structure with the following data, in the order presented:\
+uint64 POS_X, x coordinate on the map\
+uint64 POS_Y, y coordinate on the map\
 uint64 ASA_ID, unique NFT id
 
-Monsters are stored in a box acting as a contiguous array, with the following structure:
-Box name: b"MONSTERS"
+Monsters are stored in a box acting as a contiguous array, with the following structure:\
+Box name: b"MONSTERS"\
 Box contents: |uint64 len|uint64 M_0:POS_X |uint64 M_0:POS_Y |uint64 M_0:ASA_ID | (...) |uint64 M_{len}:ASA_ID | 0 | 0 | 0 (...up to 4096 bytes), where M_k are monsters
 
-A player entity is represented by a 32 byte structure with the following data, in the order presented:
-uint64 POS_X, x coordinate on the map
-uint64 POS_Y, y coordinate on the map
-uint64 UNSECURED_ASSET: NFT being held (or zero for none)
+A player entity is represented by a 32 byte structure with the following data, in the order presented:\
+uint64 POS_X, x coordinate on the map\
+uint64 POS_Y, y coordinate on the map\
+uint64 UNSECURED_ASSET: NFT being held (or zero for none)\
 uint64 SCORE, a player's score (or 0 if the player is inactive)
 
-Player's save data is stored in independant boxes, structured as follows:
-Box name: b"decoded algorand address for P_k"
+Player's save data is stored in independant boxes, structured as follows:\
+Box name: b"decoded algorand address for P_k"\
 Box contents: |uint64 P_k:POS_X |uint64 P_k:POS_Y |uint64 P_k:UNSECURED_ASSET |uint64 P_k:SCORE|
 
-And player's local state acts as their data storage when they're active, with the following key value pairs:
-"POS_X": uint64 pos_x
-"POS_Y": uint64 pos_y
-"UNSECURED_ASSET": uint64 asa_id
+And player's local state acts as their data storage when they're active, with the following key value pairs:\
+"POS_X": uint64 pos_x\
+"POS_Y": uint64 pos_y\
+"UNSECURED_ASSET": uint64 asa_id\
 "SCORE": uint64 score
 
-Contract's global state:
+Contract's global state:\
 "ADMIN": byte slice address, the address of the contract's creator
 
 ## Details
