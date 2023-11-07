@@ -49,8 +49,8 @@ In order to build the requested system, you have to implement the following func
 
 - addMonster("addMonster", uint64 pos_x, uint64 pos_y), adds a monster to the game. Positions are represented by an arbitrary tuple of unsigned 64 bit integers. The function should append the monster at the end of the occupied length of the MONSTER box. Consider that the first integer of the MONSTER box should be used for keeping track of the amount of live monsters in play, incrementing by one after a succesful call to this function. Lastly, the function should use an inner transaction to mint a unique NFT, for which the contract is a manager, clawback and freeze address.
 
-- enterPlayer("enterPlayer"), if its the player's first time calling this function, it will add the player to the game. This entails creating a box named as the sender's address (32 byte value given by _txn Sender_), which will hold 4 uint64 integers: player's x and y position coordinates, the unsecured asset being ocassionaly held by the player, and the player's current score.
-After a succesful entry, the player is awarded one point (which should reflect in their local state).
+- enterPlayer("enterPlayer"), if its the player's first time calling this function, it will add the player to the game. This entails creating a box named as the sender's address (32 byte value given by _txn Sender_), which will hold 4 uint64 integers: player's x and y position coordinates, the unsecured asset being ocassionaly held by the player, and the player's current score.\
+After a succesful entry, the player is awarded one point (which should reflect in their local state).\
 If the player was already in the game, but is opted out for some reason, then it should reset their box (overwrite it with 0s). Otherwise it should reinstate the data in the box to local state's respective keys, and afterwards clean the box as well.
 
 - exitAndSavePlayer("exitAndSavePlayer"), if the player was active, it should add a player's local data into their respective box, and then clear their local state. Otherwise it should fail. Note that since score can't be zero, having a null score is a good signifier for an inactive player.
@@ -58,20 +58,20 @@ If the player was already in the game, but is opted out for some reason, then it
 - playerMove("playerMove", Direction d), d \in {"UP", "DOWN", "LEFT", "RIGHT"}, should move an active player (fail f the caller is inactive) one unit in the desired direction, impacting their relevant local state position variable. Axis are Y+1 for up, Y-1 for down, X-1 for left and X+1 for right. Any calls that would take the player out of the bounds of unsigned integers should naturally fail.
 
 - playerKillMonster("playerKillMonster"), should allow the caller to kill a monster anywhere on the map ("infinitely ranged attacks"), taking their NFT in the process. This means that:
-    -The slot where the monster was should be filled out by whichever monster is last in the "MONSTERS" box (and the length decreased). If it was the only monster on field, it should be overwriten with zeros.
-    -The ASA id of the slain monster's NFT should be filled into the player's local state variable. The NFT should then be transfered through an inner transaction. Note that the contract retains manager, freeze and clawback privileges over it, and the asset remains frozen so it can't be traded.
-    -Note that when a player is holding an asset this way, their hands are "busy". This means they cannot attack other monsters, or steal from other players until they loose it (either by securing it or getting it stolen).
-    -This action increases player's score by 1 point.
+    - The slot where the monster was should be filled out by whichever monster is last in the "MONSTERS" box (and the length decreased). If it was the only monster on field, it should be overwriten with zeros.
+    - The ASA id of the slain monster's NFT should be filled into the player's local state variable. The NFT should then be transfered through an inner transaction. Note that the contract retains manager, freeze and clawback privileges over it, and the asset remains frozen so it can't be traded.
+    - Note that when a player is holding an asset this way, their hands are "busy". This means they cannot attack other monsters, or steal from other players until they loose it (either by securing it or getting it stolen).
+    - This action increases player's score by 1 point.
 
 - pvpSteal("pvpSteal"), the caller attempts to steal a victim's unsecured prize (first available account in the Accounts array, accessed like _txna Accounts 0_). If succesful, the victim's "UNSECURED_ASSET" local variable is cleared out and the caller's is filled out with the corresponding ASA id. Then the contract claws the asset back from the victim and transfers it to the caller.
-    -Players may only steal from other players holding assets at a distance of at most 10 units.
-    -This action may not be carried away by a player holding an unsecured asset, as their "hands are full"
+    - Players may only steal from other players holding assets at a distance of at most 10 units.
+    - This action may not be carried away by a player holding an unsecured asset, as their "hands are full"
 
 - secureAsset("secureAsset"), if the caller is holding an asset in their local state, and they are standing inside (edges included) the *safe zone* (defined as an 11 by 11 square with its lower left corner on (0,0) and its upper right corner on (10,10)), the player gets their local state variable cleared out, and their asset is safe. 
-    -Only active players may secure assets.
-    -Players might steal from each other inside the safe zone, if the asset has not been secured fast enough.
-    -Calls without an asset to secure should fail.
-    -This action increases player's score by 1 point.
+    - Only active players may secure assets.
+    - Players might steal from each other inside the safe zone, if the asset has not been secured fast enough.
+    - Calls without an asset to secure should fail.
+    - This action increases player's score by 1 point.
     [^2]
 
 All calls to the contract will be made through the provided script. You need not to consider any other calling structure (e.g. group transactions other than the ones utilized).
