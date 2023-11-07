@@ -12,4 +12,4 @@ Our problem building philosophy had a couple goals in mind:
 - To allow for a wide range of participants, getting people started into the Algorand ecosystem and bootstrapping beginners while still remaining an interesting and fun challenge for more seasoned developers or even experts.
 - To improve technical literacy and adoption of good practices of the developer community as a whole, be it by highlighting some useful but lesser known features (e.g. ABI interface detection) or by providing scenarios that heavily implied usage of new features (e.g. _boxes_, a scheme for potentially unlimited storage on chain).
 
-Feedback from participants in the technical track was overall very positive, with some prominent builders of the Algorand community reportedly finding out about interesting features to use in their actual projects thanks to the design of our problem set.
+Feedback from participants in the technical track was overall very positive, even with some prominent builders of the Algorand community reportedly finding out about interesting features to use in their actual projects thanks to the design of our problem set.
