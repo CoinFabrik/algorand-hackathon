@@ -9,8 +9,7 @@ More information available at the official competition [site](https://mega-ace.o
 The event ran from April 14th to April 16th, 2023. In this repository we have the [instructions](Instructions.md) provided, as well as the bundles for each independant problem.
 
 Our problem building philosophy had a couple goals in mind:
-- To allow a wide range of participants, getting people started into the Algorand ecosystem and bootstrapping beginners while still remaining an interesting challenge for more seasoned developers or even experts to participate.
+- To allow for a wide range of participants, getting people started into the Algorand ecosystem and bootstrapping beginners while still remaining an interesting and fun challenge for more seasoned developers or even experts.
 - To improve technical literacy and adoption of good practices of the developer community as a whole, be it by highlighting some useful but lesser known features (e.g. ABI interface detection) or by providing scenarios that heavily implied usage of new features (e.g. _boxes_, a scheme for potentially unlimited storage on chain).
-- And last but not the least, to be fun and challenging no matter what the experience level or background of the contestant was!
 
-Feedback from participants in the technical track was overall very positive, with some prominent builders of the Algorand community finding out about interesting features to use in their actual projects thanks to the design of our problem set.
+Feedback from participants in the technical track was overall very positive, with some prominent builders of the Algorand community reportedly finding out about interesting features to use in their actual projects thanks to the design of our problem set.
